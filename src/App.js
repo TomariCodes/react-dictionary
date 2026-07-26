@@ -1,23 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main">
+        <header className="App-header">
+          <h1>Dictionary App</h1>
+          <h2>What word do you want to look up?</h2>
+          <form>
+            <input
+              type="text"
+              className="form-input"
+              placeholder="Enter a word"
+            />
+            <button type="submit" className="btn btn-submit">
+              Search
+            </button>
+          </form>
+        </header>
+        <footer>
+          <p className="text-center mt-5">
+            This project was coded by
+            <a
+              href="https://tomari-southern.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Tomari Southern
+            </a>
+            is
+            <a
+              href="https://github.com/TomariCodes/react-dictionary"
+              rel="noreferrer"
+              target="_blank"
+            >
+              open-sourced on Github
+            </a>
+            and is
+            <a
+              href="https://tomaris-react-dictionary.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              hosted on Netlify
+            </a>
+          </p>
+        </footer>
+      </div>
     </div>
   );
 }
