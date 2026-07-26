@@ -25,18 +25,22 @@ function App() {
               href="https://tomari-southern.netlify.app/"
               rel="noreferrer"
               target="_blank"
-            >
+            >{" "}
               Tomari Southern
             </a>
+            {" "}
             is
+            {" "}
             <a
               href="https://github.com/TomariCodes/react-dictionary"
               rel="noreferrer"
               target="_blank"
-            >
+            >{" "}
               open-sourced on Github
             </a>
+            {" "}
             and is
+            {" "}
             <a
               href="https://tomaris-react-dictionary.netlify.app/"
               rel="noreferrer"
