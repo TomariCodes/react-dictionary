@@ -1,22 +1,14 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
       <div className="main">
-        <header className="App-header">
+      <header className="App-header">
           <h1>Dictionary App</h1>
           <h2>What word do you want to look up?</h2>
-          <form>
-            <input
-              type="text"
-              className="form-input"
-              placeholder="Enter a word"
-            />
-            <button type="submit" className="btn btn-submit">
-              Search
-            </button>
-          </form>
+        <Dictionary />
         </header>
         <footer>
           <p className="text-center mt-5">
