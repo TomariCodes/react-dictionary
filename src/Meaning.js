@@ -1,6 +1,7 @@
 import React from "react";
 import Example from "./Example";
 import Synonyms from "./Synonyms";
+import Antonyms from "./Antonyms";
 
 function Meaning(props) {
         return (
@@ -9,6 +10,7 @@ function Meaning(props) {
         <p className="text-capitalize definition">{props.meaning.definition}</p>
         <Example example={props.meaning.example} />
         <Synonyms synonyms={props.meaning.synonyms} />
+        <Antonyms antonyms={props.meaning.antonyms} />
       </div>
     );
   }
