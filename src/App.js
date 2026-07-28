@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
           <h1>Dictionary App</h1>
           <h2>What word do you want to look up?</h2>
-        <Dictionary />
         </header>
+        <Dictionary />
         <footer>
           <p className="text-center mt-5">
             This project was coded by
