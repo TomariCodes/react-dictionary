@@ -6,7 +6,7 @@ function Results(props) {
     return (
       <div className="Results">
         <h2 className="text-capitalize">{props.results.word}</h2>
-        <p>/{props.results.phonetic.replace(",", " ")}/</p>
+        <h3>/{props.results.phonetic.replace(",", " ")}/</h3>
         {props.results.meanings.map((meaning, index) => {
           return (
             <div key={index}>
