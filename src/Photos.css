@@ -22,7 +22,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-
 .photo:hover {
   transform: scale(0.9);
   box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,17 +33,14 @@
 }
 
 @media (max-width: 976px) {
-
-    .photos-gallery {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 20px;
-        overflow: hidden;
-
-    }
+  .photos-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    overflow: hidden;
+  }
 
   .photo {
     width: 100%;
   }
-
 }
