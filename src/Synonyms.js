@@ -5,7 +5,7 @@ function Synonyms(props) {
     return null;
   }
   return (
-    <p className="synonyms">
+    <p className="synonyms fs-6">
       Synonyms: {props.synonyms.join(", ")}
     </p>
   );

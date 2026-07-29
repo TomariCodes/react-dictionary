@@ -1,0 +1,35 @@
+.Results {
+  margin: 80px 0;
+  text-align: left;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 40px;
+}
+
+.Results h2 {
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.Results h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.results-phonetic {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 30px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 6px 8px 14px rgba(0, 0, 0, 0.2);
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -5,7 +5,7 @@ function Antonyms(props) {
     return null;
   }
   return (
-    <p className="antonyms">
+    <p className="antonyms fs-6">
       Antonyms: {props.antonyms.join(", ")}
     </p>
   );
