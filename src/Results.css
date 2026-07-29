@@ -27,9 +27,13 @@
   box-shadow: 6px 8px 14px rgba(0, 0, 0, 0.2);
 }
 
-.results-container {
-  display: flex;
-  flex-direction: column;
+@media (max-width: 976px) {
+  .Results {
+    padding: 30px;
+  }
+
+  .results-phonetic {
   justify-content: center;
-  align-items: center;
+
+}
 }

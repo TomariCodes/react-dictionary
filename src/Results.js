@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import Photos from "./Photos";
 import "./Results.css"
 
 function Results(props) {
@@ -20,6 +21,9 @@ function Results(props) {
             </div>
           );
         })}
+        <div className="Photos-gallery">
+          <Photos photos={props.photos} />   
+        </div>
       </div>
     );
   } else {
