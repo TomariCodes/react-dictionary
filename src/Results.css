@@ -37,3 +37,17 @@
 
 }
 }
+
+@media(max-width: 480px) {
+  .Results {
+    padding: 20px;
+  }
+  
+  .Results h2 {
+    font-size: 50px;
+  }
+  .results-phonetic {
+    flex-direction: column;
+    align-items: center;
+  }
+}

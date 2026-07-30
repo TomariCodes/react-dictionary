@@ -21,9 +21,8 @@ function Results(props) {
             </div>
           );
         })}
-        <div className="Photos-gallery">
+        
           <Photos photos={props.photos} />   
-        </div>
       </div>
     );
   } else {
