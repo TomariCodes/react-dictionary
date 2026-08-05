@@ -23,7 +23,7 @@ function Photos(props) {
       })}
     </div>
 
-      <div className="last-row">
+      <div className="last-row d-none d-md-flex justify-content-center">
       {props.photos.map((photo, index) => {
        if (index === 4) {
         return (

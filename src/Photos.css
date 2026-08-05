@@ -58,11 +58,6 @@
     gap: 20px;
   }
 
-  .last-row {
-    display: flex;
-    justify-content: center;
-  }
-
   .last-row .photo {
     flex: none;
     width: calc(50% - 10px);

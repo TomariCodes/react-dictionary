@@ -14,7 +14,7 @@ function App() {
           <p className="text-center mt-5">
             This project was coded by
             <a
-              href="https://tomari-southern.netlify.app/"
+              href="https://tomaritech.com"
               rel="noreferrer"
               target="_blank"
             >{" "}

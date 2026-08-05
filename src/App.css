@@ -123,7 +123,11 @@ footer {
   }
 } 
 
-@media(max-width: 480px) {
+@media(max-width: 580px) {
+.App {
+  padding: 0;
+}
+
   .App-header h1 {
     font-size: 32px;
   }
